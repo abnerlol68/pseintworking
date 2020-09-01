@@ -20,3 +20,5 @@ Algoritmo lienzoCharrro
 	Escribir "El perimetro total del terreno es de: ", short_perimeter, "m";
 	
 FinAlgoritmo
+
+//https://github.com/abnerlol68/pseintworking
