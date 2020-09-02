@@ -8,11 +8,16 @@ Algoritmo explesionMatematica
 	Definir f Como Real;
 	
 	//Definición de valores
-	x = 12;
-	sigma = 2.1836;
-	y01 = 3;
-	lambda = 1.11695;
-	alfa = 328.67;
+	Escribir "Introduce el valor de x (12): ";
+	Leer x;
+	Escribir "Introduce el valor de sigma (2.1836): ";
+	Leer sigma;
+	Escribir "Introduce el valor de y (3): ";
+	Leer y01;
+	Escribir "Introduce el valor de lambda (1.11695): ";
+	Leer lambda;
+	Escribir "Introduce el valor de alfa (328.67): ";
+	Leer alfa;
 	
 	//Proceso 
 	f = 3 * ((x + sigma * y01) / (x^2 - y01^2)) - lambda * (alfa - 13.7);
